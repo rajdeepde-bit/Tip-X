@@ -37,7 +37,7 @@ TipX includes a **Soroban smart contract** (written in Rust) that logs tips on-c
 
 ## 🚀 Live Demo
 
-- **Vercel Deployment:** ![click me](https://tip-x-nine.vercel.app/)
+- **Vercel Deployment:** [click me](https://tip-x-nine.vercel.app/)
 - **Demo Video:** <!-- TODO: paste your demo video link here --> ` `
 
 ## 🛠️ Tech Stack

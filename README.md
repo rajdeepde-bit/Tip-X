@@ -89,3 +89,23 @@ Then open **http://127.0.0.1:8080** in your browser.
 > 💡 For a full walkthrough of connecting a wallet and sending your first tip, see [`QUICK_START.md`](QUICK_START.md).
 
 ---
+
+## 📸 Screenshots
+
+| Landing Page | Dashboard |
+|:---:|:---:|
+| ![Landing Page](Screenshots/main_page.png) | ![Dashboard](Screenshots/dashboard.png) |
+
+| Send Tip (Albedo) | Payment (Freighter) |
+|:---:|:---:|
+| ![Tip with Albedo](Screenshots/tip_albedo.png) | ![Payment with Freighter](<Screenshots/payment_frieghter (2).png>) |
+
+| Tip Sent Confirmation | Generate Tip Link |
+|:---:|:---:|
+| ![Tip Sent](Screenshots/tip_sent.png) | ![Generate Tip Link](Screenshots/gen_tipLink.png) |
+
+| Different Wallet | Profile Response |
+|:---:|:---:|
+| ![Different Wallet](Screenshots/diff_wallet.png) | ![Profile Response](Screenshots/ph_response.png) |
+
+---

@@ -35,6 +35,11 @@ TipX includes a **Soroban smart contract** (written in Rust) that logs tips on-c
 
  View the contract on [Stellar Lab (Testnet)](https://lab.stellar.org/smart-contracts/contract-explorer?$=network$id=testnet&label=Testnet&horizonUrl=https:////horizon-testnet.stellar.org&rpcUrl=https:////soroban-testnet.stellar.org&passphrase=Test%20SDF%20Network%20/;%20September%202015;&smartContracts$explorer$contractId=CAN7F5MOB2EA2LFARTU64JJ2BADTDGBXIV4Z6JFKLPJU2E75OPZTAZ57;;)
 
+## 🚀 Live Demo
+
+- **Vercel Deployment:** <!-- TODO: paste your Vercel URL here --> `https://tip-x-nine.vercel.app/`
+- **Demo Video:** <!-- TODO: paste your demo video link here --> ` `
+
 ## 🛠️ Tech Stack
 
 **Frontend**

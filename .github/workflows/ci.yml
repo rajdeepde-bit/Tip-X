@@ -1,0 +1,62 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  frontend-tests:
+    name: Frontend tests
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Run test suite
+        run: npm test
+
+  contract:
+    name: Soroban contract (build + test)
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: contracts/tipx
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install Rust toolchain
+        uses: dtolnay/rust-toolchain@stable
+        with:
+          targets: wasm32v1-none
+
+      - name: Cache cargo registry and build
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/.cargo/registry
+            ~/.cargo/git
+            contracts/tipx/target
+          key: ${{ runner.os }}-cargo-${{ hashFiles('contracts/tipx/Cargo.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-cargo-
+
+      - name: Run contract unit tests
+        run: cargo test --locked
+
+      - name: Build contract wasm
+        run: cargo build --locked --release --target wasm32v1-none
+
+      - name: Upload wasm artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: tipx-wasm
+          path: contracts/tipx/target/wasm32v1-none/release/tipx.wasm

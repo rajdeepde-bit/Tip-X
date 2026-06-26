@@ -109,3 +109,15 @@ Then open **http://127.0.0.1:8080** in your browser.
 | ![Different Wallet](Screenshots/diff_wallet.png) | ![mobile Response](Screenshots/ph_response.png) |
 
 ---
+
+
+## 🎯 Conclusion
+
+TipX demonstrates how blockchain can power a genuinely useful, everyday experience — supporting creators directly with fast, low-cost, transparent payments. By combining Stellar's speed and tiny fees with a Soroban smart contract for on-chain tip records and a polished React interface, TipX bridges the gap between web3 power and Web2 simplicity.
+
+Whether you're a creator looking to receive support or a supporter wanting to tip your favorites, TipX makes decentralized tipping effortless. 💛
+
+---
+
+<p align="center">Built with 💛 on Stellar</p>
+

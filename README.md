@@ -59,11 +59,11 @@ TipX includes a **Soroban smart contract** (written in Rust) that logs tips on-c
 **Backend / Storage**
 - Node.js static file server ([`server.js`](server.js))
 - Firebase Firestore (creator profiles & metadata)
-  ## 💻 How to Run Locally
 
 
 ## CI/CD active for both frontend & contract.  
 
+  ## 💻 How to Run Locally
 
 ### Prerequisites
 - [Node.js](https://nodejs.org/) installed

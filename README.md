@@ -61,6 +61,8 @@ TipX includes a **Soroban smart contract** (written in Rust) that logs tips on-c
 - Firebase Firestore (creator profiles & metadata)
   ## 💻 How to Run Locally
 
+
+## CI/CD active for both frontend & contract.  
 ### Prerequisites
 - [Node.js](https://nodejs.org/) installed
 - A Stellar wallet extension — [Albedo](https://albedo.link) or [Freighter](https://freighter.app)

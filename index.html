@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TipX — Send XLM Tips on Stellar</title>
+  <link rel="stylesheet" href="style-final.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div id="root">
+    <div class="initial-loader">
+      <div class="spinner"></div>
+      <p>Loading TipX...</p>
+    </div>
+  </div>
+
+  <!-- 1. React (UMD) -->
+  <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+
+  <!-- 2. React-DOM (UMD) -->
+  <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+
+  <!-- 3. Babel Standalone for JSX transformation (pinned 7.x = classic JSX runtime) -->
+  <script src="https://unpkg.com/@babel/standalone@7.23.5/babel.min.js"></script>
+
+  <!-- 4. Stellar SDK -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/stellar-sdk/10.4.1/stellar-sdk.min.js"></script>
+
+  <!-- 5. Albedo -->
+  <script src="https://cdn.jsdelivr.net/npm/@albedo-link/intent@0.13.0/lib/albedo.intent.js"></script>
+
+  <!-- 6. Firebase App (compat) -->
+  <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-app-compat.js"></script>
+
+  <!-- 7. Firebase Firestore (compat) -->
+  <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-firestore-compat.js"></script>
+
+  <!-- 8. Firebase Auth (compat) -->
+  <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-auth-compat.js"></script>
+
+  <!-- Freighter API v1.7.1 (modern, compatible with current extension) -->
+  <script src="https://cdn.jsdelivr.net/npm/@stellar/freighter-api@1.7.1/build/index.min.js"></script>
+
+  <!-- App script -->
+  <script type="text/babel" src="app-final.js?v=1782000000001"></script>
+
+</body>
+</html>

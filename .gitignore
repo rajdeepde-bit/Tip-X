@@ -1,0 +1,11 @@
+node_modules/
+contracts/target/
+contracts/*/target/
+**/target/
+contracts/*/test_snapshots/
+.env
+.DS_Store
+*.log
+.vercel/
+dist/
+build/

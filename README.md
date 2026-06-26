@@ -106,6 +106,6 @@ Then open **http://127.0.0.1:8080** in your browser.
 
 | Different Wallet | Profile Response |
 |:---:|:---:|
-| ![Different Wallet](Screenshots/diff_wallet.png) | ![Profile Response](Screenshots/ph_response.png) |
+| ![Different Wallet](Screenshots/diff_wallet.png) | ![mobile Response](Screenshots/ph_response.png) |
 
 ---
